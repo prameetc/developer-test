@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux';
 export default function TodoInput() {
   const [newWish, setNewWish] = useState('');
   const dispatch = useDispatch();
-  const { addWishList, wishList, clearList } = useWishList();
+  const { addWishList, wishList } = useWishList();
 
   const addNewWishList = () => {
     if (newWish === '') {
