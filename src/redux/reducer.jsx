@@ -1,6 +1,5 @@
 import {
   ADD_ITEM,
-  CLEAR_LIST,
   DELETE_ITEM,
 } from './actions';
 
